@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F51AD201C7EC10E0087BE8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F51AD1F1C7EC10E0087BE8E /* main.m */; };
+		8F51AD231C7EC10E0087BE8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F51AD221C7EC10E0087BE8E /* AppDelegate.m */; };
+		8F51AD261C7EC10E0087BE8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F51AD251C7EC10E0087BE8E /* ViewController.m */; };
+		8F51AD291C7EC10E0087BE8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F51AD271C7EC10E0087BE8E /* Main.storyboard */; };
+		8F51AD2B1C7EC10E0087BE8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F51AD2A1C7EC10E0087BE8E /* Assets.xcassets */; };
+		8F51AD2E1C7EC10E0087BE8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F51AD2C1C7EC10E0087BE8E /* LaunchScreen.storyboard */; };
+		8F51AD391C7EC10E0087BE8E /* PhotoIconEditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F51AD381C7EC10E0087BE8E /* PhotoIconEditorTests.m */; };
+		8F51AD441C7EC10F0087BE8E /* PhotoIconEditorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F51AD431C7EC10F0087BE8E /* PhotoIconEditorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F51AD351C7EC10E0087BE8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F51AD131C7EC10E0087BE8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F51AD1A1C7EC10E0087BE8E;
+			remoteInfo = PhotoIconEditor;
+		};
+		8F51AD401C7EC10E0087BE8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F51AD131C7EC10E0087BE8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F51AD1A1C7EC10E0087BE8E;
+			remoteInfo = PhotoIconEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F51AD1B1C7EC10E0087BE8E /* PhotoIconEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoIconEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F51AD1F1C7EC10E0087BE8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F51AD211C7EC10E0087BE8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F51AD221C7EC10E0087BE8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F51AD241C7EC10E0087BE8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F51AD251C7EC10E0087BE8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F51AD281C7EC10E0087BE8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F51AD2A1C7EC10E0087BE8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F51AD2D1C7EC10E0087BE8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F51AD2F1C7EC10E0087BE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F51AD341C7EC10E0087BE8E /* PhotoIconEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoIconEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F51AD381C7EC10E0087BE8E /* PhotoIconEditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoIconEditorTests.m; sourceTree = "<group>"; };
+		8F51AD3A1C7EC10E0087BE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F51AD3F1C7EC10E0087BE8E /* PhotoIconEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoIconEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F51AD431C7EC10F0087BE8E /* PhotoIconEditorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoIconEditorUITests.m; sourceTree = "<group>"; };
+		8F51AD451C7EC10F0087BE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F51AD181C7EC10E0087BE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F51AD311C7EC10E0087BE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F51AD3C1C7EC10E0087BE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F51AD121C7EC10E0087BE8E = {
+			isa = PBXGroup;
+			children = (
+				8F51AD1D1C7EC10E0087BE8E /* PhotoIconEditor */,
+				8F51AD371C7EC10E0087BE8E /* PhotoIconEditorTests */,
+				8F51AD421C7EC10E0087BE8E /* PhotoIconEditorUITests */,
+				8F51AD1C1C7EC10E0087BE8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F51AD1C1C7EC10E0087BE8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F51AD1B1C7EC10E0087BE8E /* PhotoIconEditor.app */,
+				8F51AD341C7EC10E0087BE8E /* PhotoIconEditorTests.xctest */,
+				8F51AD3F1C7EC10E0087BE8E /* PhotoIconEditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F51AD1D1C7EC10E0087BE8E /* PhotoIconEditor */ = {
+			isa = PBXGroup;
+			children = (
+				8F51AD211C7EC10E0087BE8E /* AppDelegate.h */,
+				8F51AD221C7EC10E0087BE8E /* AppDelegate.m */,
+				8F51AD241C7EC10E0087BE8E /* ViewController.h */,
+				8F51AD251C7EC10E0087BE8E /* ViewController.m */,
+				8F51AD271C7EC10E0087BE8E /* Main.storyboard */,
+				8F51AD2A1C7EC10E0087BE8E /* Assets.xcassets */,
+				8F51AD2C1C7EC10E0087BE8E /* LaunchScreen.storyboard */,
+				8F51AD2F1C7EC10E0087BE8E /* Info.plist */,
+				8F51AD1E1C7EC10E0087BE8E /* Supporting Files */,
+			);
+			path = PhotoIconEditor;
+			sourceTree = "<group>";
+		};
+		8F51AD1E1C7EC10E0087BE8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F51AD1F1C7EC10E0087BE8E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F51AD371C7EC10E0087BE8E /* PhotoIconEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F51AD381C7EC10E0087BE8E /* PhotoIconEditorTests.m */,
+				8F51AD3A1C7EC10E0087BE8E /* Info.plist */,
+			);
+			path = PhotoIconEditorTests;
+			sourceTree = "<group>";
+		};
+		8F51AD421C7EC10E0087BE8E /* PhotoIconEditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F51AD431C7EC10F0087BE8E /* PhotoIconEditorUITests.m */,
+				8F51AD451C7EC10F0087BE8E /* Info.plist */,
+			);
+			path = PhotoIconEditorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F51AD1A1C7EC10E0087BE8E /* PhotoIconEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F51AD481C7EC10F0087BE8E /* Build configuration list for PBXNativeTarget "PhotoIconEditor" */;
+			buildPhases = (
+				8F51AD171C7EC10E0087BE8E /* Sources */,
+				8F51AD181C7EC10E0087BE8E /* Frameworks */,
+				8F51AD191C7EC10E0087BE8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoIconEditor;
+			productName = PhotoIconEditor;
+			productReference = 8F51AD1B1C7EC10E0087BE8E /* PhotoIconEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F51AD331C7EC10E0087BE8E /* PhotoIconEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F51AD4B1C7EC10F0087BE8E /* Build configuration list for PBXNativeTarget "PhotoIconEditorTests" */;
+			buildPhases = (
+				8F51AD301C7EC10E0087BE8E /* Sources */,
+				8F51AD311C7EC10E0087BE8E /* Frameworks */,
+				8F51AD321C7EC10E0087BE8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F51AD361C7EC10E0087BE8E /* PBXTargetDependency */,
+			);
+			name = PhotoIconEditorTests;
+			productName = PhotoIconEditorTests;
+			productReference = 8F51AD341C7EC10E0087BE8E /* PhotoIconEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F51AD3E1C7EC10E0087BE8E /* PhotoIconEditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F51AD4E1C7EC10F0087BE8E /* Build configuration list for PBXNativeTarget "PhotoIconEditorUITests" */;
+			buildPhases = (
+				8F51AD3B1C7EC10E0087BE8E /* Sources */,
+				8F51AD3C1C7EC10E0087BE8E /* Frameworks */,
+				8F51AD3D1C7EC10E0087BE8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F51AD411C7EC10E0087BE8E /* PBXTargetDependency */,
+			);
+			name = PhotoIconEditorUITests;
+			productName = PhotoIconEditorUITests;
+			productReference = 8F51AD3F1C7EC10E0087BE8E /* PhotoIconEditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F51AD131C7EC10E0087BE8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Suryanarayan Sahu";
+				TargetAttributes = {
+					8F51AD1A1C7EC10E0087BE8E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					8F51AD331C7EC10E0087BE8E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8F51AD1A1C7EC10E0087BE8E;
+					};
+					8F51AD3E1C7EC10E0087BE8E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 8F51AD1A1C7EC10E0087BE8E;
+					};
+				};
+			};
+			buildConfigurationList = 8F51AD161C7EC10E0087BE8E /* Build configuration list for PBXProject "PhotoIconEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F51AD121C7EC10E0087BE8E;
+			productRefGroup = 8F51AD1C1C7EC10E0087BE8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F51AD1A1C7EC10E0087BE8E /* PhotoIconEditor */,
+				8F51AD331C7EC10E0087BE8E /* PhotoIconEditorTests */,
+				8F51AD3E1C7EC10E0087BE8E /* PhotoIconEditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F51AD191C7EC10E0087BE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F51AD2E1C7EC10E0087BE8E /* LaunchScreen.storyboard in Resources */,
+				8F51AD2B1C7EC10E0087BE8E /* Assets.xcassets in Resources */,
+				8F51AD291C7EC10E0087BE8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F51AD321C7EC10E0087BE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F51AD3D1C7EC10E0087BE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F51AD171C7EC10E0087BE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F51AD261C7EC10E0087BE8E /* ViewController.m in Sources */,
+				8F51AD231C7EC10E0087BE8E /* AppDelegate.m in Sources */,
+				8F51AD201C7EC10E0087BE8E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F51AD301C7EC10E0087BE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F51AD391C7EC10E0087BE8E /* PhotoIconEditorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F51AD3B1C7EC10E0087BE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F51AD441C7EC10F0087BE8E /* PhotoIconEditorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F51AD361C7EC10E0087BE8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F51AD1A1C7EC10E0087BE8E /* PhotoIconEditor */;
+			targetProxy = 8F51AD351C7EC10E0087BE8E /* PBXContainerItemProxy */;
+		};
+		8F51AD411C7EC10E0087BE8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F51AD1A1C7EC10E0087BE8E /* PhotoIconEditor */;
+			targetProxy = 8F51AD401C7EC10E0087BE8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F51AD271C7EC10E0087BE8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F51AD281C7EC10E0087BE8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F51AD2C1C7EC10E0087BE8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F51AD2D1C7EC10E0087BE8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F51AD461C7EC10F0087BE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F51AD471C7EC10F0087BE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F51AD491C7EC10F0087BE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoIconEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.demoapp.PhotoIconEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F51AD4A1C7EC10F0087BE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoIconEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.demoapp.PhotoIconEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F51AD4C1C7EC10F0087BE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoIconEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.demoapp.PhotoIconEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoIconEditor.app/PhotoIconEditor";
+			};
+			name = Debug;
+		};
+		8F51AD4D1C7EC10F0087BE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoIconEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.demoapp.PhotoIconEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoIconEditor.app/PhotoIconEditor";
+			};
+			name = Release;
+		};
+		8F51AD4F1C7EC10F0087BE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoIconEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.demoapp.PhotoIconEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoIconEditor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8F51AD501C7EC10F0087BE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoIconEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.demoapp.PhotoIconEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoIconEditor;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F51AD161C7EC10E0087BE8E /* Build configuration list for PBXProject "PhotoIconEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F51AD461C7EC10F0087BE8E /* Debug */,
+				8F51AD471C7EC10F0087BE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F51AD481C7EC10F0087BE8E /* Build configuration list for PBXNativeTarget "PhotoIconEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F51AD491C7EC10F0087BE8E /* Debug */,
+				8F51AD4A1C7EC10F0087BE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F51AD4B1C7EC10F0087BE8E /* Build configuration list for PBXNativeTarget "PhotoIconEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F51AD4C1C7EC10F0087BE8E /* Debug */,
+				8F51AD4D1C7EC10F0087BE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F51AD4E1C7EC10F0087BE8E /* Build configuration list for PBXNativeTarget "PhotoIconEditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F51AD4F1C7EC10F0087BE8E /* Debug */,
+				8F51AD501C7EC10F0087BE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F51AD131C7EC10E0087BE8E /* Project object */;
+}
