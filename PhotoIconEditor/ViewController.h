@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PhotoEditView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<PhotoEditViewDelegate>
 
 
 @end
