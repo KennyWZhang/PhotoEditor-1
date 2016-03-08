@@ -82,7 +82,7 @@
     [cancelButton addTarget:self action:@selector(cancelButtonTouched:) forControlEvents:UIControlEventTouchUpInside];
     [self bringSubviewToFront:cancelButton];
     
-    UIImage *img = [UIImage imageNamed:@"play-icon-big.png"];
+    UIImage *img = [UIImage imageNamed:@"new.png"];
     [self load:img];
     return self;
 }

@@ -14,7 +14,7 @@
 		8F51AD391C7EC10E0087BE8E /* PhotoIconEditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F51AD381C7EC10E0087BE8E /* PhotoIconEditorTests.m */; };
 		8F51AD441C7EC10F0087BE8E /* PhotoIconEditorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F51AD431C7EC10F0087BE8E /* PhotoIconEditorUITests.m */; };
 		8F51AD531C7EC22E0087BE8E /* PhotoEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F51AD521C7EC22E0087BE8E /* PhotoEditView.m */; };
-		8F51AD551C7EC61A0087BE8E /* play-icon-big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F51AD541C7EC61A0087BE8E /* play-icon-big@2x.png */; };
+		8FEE9A201C8EBA03001D01B8 /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FEE9A1F1C8EBA03001D01B8 /* new.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 		8F51AD451C7EC10F0087BE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F51AD511C7EC22E0087BE8E /* PhotoEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoEditView.h; sourceTree = "<group>"; };
 		8F51AD521C7EC22E0087BE8E /* PhotoEditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoEditView.m; sourceTree = "<group>"; };
-		8F51AD541C7EC61A0087BE8E /* play-icon-big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-icon-big@2x.png"; sourceTree = "<group>"; };
+		8FEE9A1F1C8EBA03001D01B8 /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 		8F51AD1E1C7EC10E0087BE8E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8F51AD541C7EC61A0087BE8E /* play-icon-big@2x.png */,
+				8FEE9A1F1C8EBA03001D01B8 /* new.png */,
 				8F51AD1F1C7EC10E0087BE8E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -245,7 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F51AD551C7EC61A0087BE8E /* play-icon-big@2x.png in Resources */,
+				8FEE9A201C8EBA03001D01B8 /* new.png in Resources */,
 				8F51AD2B1C7EC10E0087BE8E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,6 +479,7 @@
 				8F51AD4A1C7EC10F0087BE8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F51AD4B1C7EC10F0087BE8E /* Build configuration list for PBXNativeTarget "PhotoIconEditorTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +488,7 @@
 				8F51AD4D1C7EC10F0087BE8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F51AD4E1C7EC10F0087BE8E /* Build configuration list for PBXNativeTarget "PhotoIconEditorUITests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +497,7 @@
 				8F51AD501C7EC10F0087BE8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
